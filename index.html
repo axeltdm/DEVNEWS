@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dev News</title>
+  </head>
+  <body>
+    <div>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        action="/success.html"
+      >
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Dev News</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Tutorials</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Finished</label
+        >
+        <label><input type="checkbox" name="personality" /> WIP</label>
+
+        <label><input type="checkbox" name="personality" /> Planned</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" /> Articles (plz use
+          folder)</label
+        >
+        <input type="text" placeholder="the URL" required />
+        <input type="text" placeholder="email please" required />
+        <button type="submit">Submit</button>
+        <i>Dropbox or Google Drive</i>
+        <i>html or txt</i>
+        <span class="but">NO INDEX.</span>
+      </form>
+    </div>
+  </body>
+</html>
