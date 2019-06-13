@@ -10,10 +10,9 @@
   <body>
     <div>
       <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        action="/success.html"
+        action="mailto:axelriggs@icloud.com"
+        method="get"
+        enctype="text/plain"
       >
         <label
           ><input type="radio" name="news" value="News" checked /> Dev
@@ -43,5 +42,20 @@
         <span class="but">NO INDEX.</span>
       </form>
     </div>
+    <script
+      type="text/javascript"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script
+    ><script type="text/javascript">
+      window.dojoRequire(['mojo/signup-forms/Loader'], function(L) {
+        L.start({
+          baseUrl: 'mc.us3.list-manage.com',
+          uuid: '6f0908a7627c594682af3413f',
+          lid: '4ea0f06ebe',
+          uniqueMethods: true
+        });
+      });
+    </script>
   </body>
 </html>
