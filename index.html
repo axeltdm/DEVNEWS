@@ -16,23 +16,27 @@
         action="/success.html"
       >
         <label
-          ><input type="radio" name="indoor-outdoor" checked /> Dev News</label
+          ><input type="radio" name="news" value="News" checked /> Dev
+          News</label
         >
-        <label><input type="radio" name="indoor-outdoor" /> Tutorials</label
+        <label
+          ><input type="radio" name="news" value="Tutorials" /> Tutorials</label
         ><br />
         <label
-          ><input type="checkbox" name="personality" checked /> Finished</label
+          ><input type="checkbox" name="state" value="Finished" checked />
+          Finished</label
         >
-        <label><input type="checkbox" name="personality" /> WIP</label>
+        <label><input type="checkbox" name="state" value="WIP" /> WIP</label>
 
-        <label><input type="checkbox" name="personality" /> Planned</label
+        <label
+          ><input type="checkbox" name="state" value="PLANNED" /> Planned</label
         ><br />
         <label
-          ><input type="checkbox" name="personality" /> Articles (plz use
+          ><input type="checkbox" name="articles" /> Articles (plz use
           folder)</label
         >
-        <input type="text" placeholder="the URL" required />
-        <input type="text" placeholder="email please" required />
+        <input type="text" value="" placeholder="the URL" required />
+        <input type="text" value="" placeholder="email please" required />
         <button type="submit">Submit</button>
         <i>Dropbox or Google Drive</i>
         <i>html or txt</i>
